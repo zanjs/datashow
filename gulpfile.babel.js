@@ -6,12 +6,16 @@ import uglify from 'gulp-uglify';
 import rename from 'gulp-rename';
 import notify from 'gulp-notify';
 import browserSync from 'browser-sync';
+import saveLicense from 'uglify-save-license';
 
 const  reload  = browserSync.create().reload;
 
 gulp.task('scripts', () => {
   gulp.src('./src/datashow.js')
-    .pipe(uglify())
+    .pipe(uglify({
+      mangle: false,
+      preserveComments: saveLicense
+    }))
     .pipe(rename('datashow.js'))
     .pipe(gulp.dest('./dist/'))
     .pipe(reload({stream: true}))

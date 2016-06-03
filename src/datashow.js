@@ -1,3 +1,8 @@
+/*!
+ * website zanjs.com
+ * auth zanjser@163.com
+ */
+
 !function(t, e) {
 	"function" == typeof define && define.amd ? define(e) : "object" == typeof exports ? module.exports = e(require, exports, module) : t.DataShow = e()
 } (this,
