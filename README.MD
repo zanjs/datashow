@@ -7,8 +7,7 @@
 ### 自定义配置参数
 
 ```
-<div class="block block-2x block-kiwi" data-show="enter bottom over 1s and move 300px after 0.3s">
-
+<div  data-show="enter bottom over 1s and move 300px after 0.3s">
 ```
 
 
