@@ -6,8 +6,18 @@
 
 ### 自定义配置参数
 
+html
 ```
 <div  data-show="enter bottom over 1s and move 300px after 0.3s">
+```
+
+javascript
+
+```
+window.DataShow = new DataShow({
+    reset: false,   // 是否重复动画
+    move: '20px'    // 距离位置执行动画
+});
 ```
 
 
