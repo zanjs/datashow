@@ -1,6 +1,6 @@
 {
   "name": "datashow",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/datashow.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "babel-register": "^6.7.2",
     "browser-sync": "^2.12.5",
     "gulp": "^3.9.1",
+    "gulp-header": "^1.8.2",
     "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.3",
