@@ -1,5 +1,7 @@
 ## Data show
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/datashow.svg)](https://greenkeeper.io/)
+
 滚屏数据展现动画
 
 ## 使用
